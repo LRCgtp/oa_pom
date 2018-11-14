@@ -20,6 +20,9 @@ import java.util.List;
 @RequestMapping("/dep")
 public class DepController extends BaseController {
 
+    /**
+     * 修改一个bug，很开心
+     */
     @Autowired
     private IDepService depService;
     
